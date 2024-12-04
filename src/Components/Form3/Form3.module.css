@@ -1,0 +1,50 @@
+.form3 {
+    width: 100%;
+}
+
+.form3 .data_input{
+    all: unset;
+    border-bottom: 1px solid #007aff;
+    width: 100%;
+    background-color: rgb(236, 234, 234);
+}
+
+.data_input::placeholder {
+    color: #007aff;
+}
+
+.form_help {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form_help p {
+    margin-bottom: 0;
+    color: #007aff;
+}
+
+.form_help label {
+    color: #007aff;
+}
+
+
+.remember {
+    column-gap:5px;
+}
+
+.remember input {
+    width: 12px;
+    height: 12px;
+}
+
+.form3 button {
+    all: unset;
+    background-color: #007aff;
+    color: white;
+    width: 250px;
+    border-radius: 2px;
+    text-align: center;
+    transition: 0.3s ease-in-out all;
+    font-size: 17px;
+    width: 100%;
+}

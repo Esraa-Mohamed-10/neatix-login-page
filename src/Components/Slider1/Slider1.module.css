@@ -1,0 +1,56 @@
+.slider_container {
+    height: 70vh;
+}
+
+.mySwiper  , .slide_div {
+    height: 100%;
+}
+
+
+.slide_div {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide_div:hover img {
+    transform: scale(1.08);
+}
+
+.slide_div::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0d101b67;
+    z-index: 100;
+}
+
+.slide_img {
+    object-fit: cover;
+    object-position: center;
+    text-align: center;
+    height: 100%;
+    transition: 2s ease-in-out all;
+}
+
+.text_overlay {
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    transform: translate(-30%, -30%);
+    width: 80%;
+    z-index: 100;
+}
+
+.title {
+    color: white;
+    font-size: 2.2rem;
+    margin-bottom: 0;
+}
+
+.text {
+    color: rgb(226, 226, 226);
+}

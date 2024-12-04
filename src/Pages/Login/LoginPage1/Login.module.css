@@ -1,0 +1,69 @@
+.main_login_div {
+  height: 100vh;
+  background-image: url(../../../assets/download.png),
+    linear-gradient(180deg, #324650e6, #0d101b), url(../../../assets/cover.jpg);
+  background-size: 4.6875rem, cover, cover;
+  background-position: 50%;
+  overflow: hidden;
+}
+
+.form_slider_container {
+  width: 80%;
+  /* height: 90vh; */
+}
+
+.logo_class {
+  fill: rgba(255, 255, 255, 0.925);
+}
+
+.login_form {
+  background-color: #0d101b;
+  border-radius: 5px;
+  position: relative;
+}
+
+.langBtn {
+  all: unset;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: rgb(241, 241, 241);
+}
+
+.login_slider {
+  display: none;
+}
+
+
+@media (min-width: 768px) {
+  .form_slider_container {
+    width: 76%;
+    height: 70vh;
+  }
+  .login_slider,
+  .login_form {
+    width: 50%;
+  }
+  .login_form {
+    background-color: #0d101b;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .login_slider {
+    display: block;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .logo_class {
+    height: 150px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form_slider_container {
+    width: 55%;
+  }
+}
