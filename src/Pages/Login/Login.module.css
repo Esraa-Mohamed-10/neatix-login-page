@@ -1,23 +1,23 @@
 .main_login_div {
   height: 100vh;
-  background-image: url(../../../assets/download.png),
-    linear-gradient(180deg, #324650e6, #0d101b), url(../../../assets/cover.jpg);
+  background-image: url(../../assets/download.png), var(--background),
+    url(../../assets/cover.jpg);
   background-size: 4.6875rem, cover, cover;
   background-position: 50%;
   overflow: hidden;
+  position: relative;
 }
 
 .form_slider_container {
   width: 80%;
-  /* height: 90vh; */
 }
 
 .logo_class {
-  fill: rgba(255, 255, 255, 0.925);
+  fill: var(--logo);
 }
 
 .login_form {
-  background-color: #0d101b;
+  background-color: var(--form_background);
   border-radius: 5px;
   position: relative;
 }
@@ -27,13 +27,28 @@
   position: absolute;
   top: 5%;
   left: 5%;
-  color: rgb(241, 241, 241);
+  color: var(--lang_btn);
 }
 
 .login_slider {
   display: none;
 }
 
+.mode_btn {
+  all: unset;
+  position: absolute;
+  top:3%;
+  left:3%;
+  color: rgb(247, 247, 247);
+  background-color: #0d101b;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
 
 @media (min-width: 768px) {
   .form_slider_container {
@@ -45,7 +60,6 @@
     width: 50%;
   }
   .login_form {
-    background-color: #0d101b;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
   }
@@ -58,7 +72,7 @@
   }
 
   .logo_class {
-    height: 150px !important;
+    height: 3px !important;
   }
 }
 
@@ -67,3 +81,4 @@
     width: 55%;
   }
 }
+

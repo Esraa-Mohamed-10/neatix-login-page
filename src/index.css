@@ -1,1 +1,33 @@
+:root {
+    --background: linear-gradient(180deg, #8acdee71, #88ccee71);
+    --logo: #0d101b;
+    --overlay: #0d101b1c;
+    --form_background: white ;
+    --lang_btn:#0d101b;
+    --forgot_pass:#0d101b;
+    --remember: #007aff;
+    --button_border_color:#007aff;
+    --button-background-color: transparent;
+    --button-text-color: #007aff;
+    --light_blue: #007aff;
+    --button-text-color:#007aff;
+    --placeholder:#007aff;
+    --input_color: black;
+    --mode_color: rgb(87, 87, 87);
+}
 
+[data-theme="dark"] {
+    --background: linear-gradient(180deg, #324650e6, #0d101b);
+    --logo:rgba(255, 255, 255, 0.925);
+    --overlay: #0d101b67;
+    --form_background: #0d101b;
+    --lang_btn:rgb(241, 241, 241);
+    --forgot_pass:#007aff;
+    --remember: rgb(241, 241, 241);
+    --button_border_color:transparent;
+    --button-background-color:  #080a11;
+    --button-text-color: rgb(241, 241, 241);
+    --placeholder: #6d6c6c;
+    --input_color: rgb(241, 241, 241);
+    --mode_color: rgb(243, 208, 12);
+}

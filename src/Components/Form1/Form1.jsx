@@ -31,7 +31,7 @@ const Form1 = () => {
         </div>
         <p>{t('forgotPass')}</p>
       </div>
-      <button type="submit" className={`d-block my-4 p-2 ${styles.login_btn}`}>
+      <button type="submit" className={`d-block my-4 my-md-2 my-lg-4 p-2 ${styles.login_btn}`}>
       {t('login')}
       </button>
       <div className={`${styles.btns_container} d-flex mt-3 justify-content-between flex-wrap flex-lg-nowrap`}>
